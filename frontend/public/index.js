@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8" />
-    <title>StatusBoard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
-<body>
-<noscript>Vous devez activer JavaScript pour utiliser cette application.</noscript>
-<div id="root"></div>
-</body>
-</html>
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
