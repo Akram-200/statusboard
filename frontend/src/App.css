@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7fb;
+    color: #222;
+}
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 320px;
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    background: #6c63ff;
+    color: white;
+    border-radius: 12px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.app {
+    padding: 20px;
+}
+
+header {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+aside {
+    width: 200px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+main {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.member-card {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.member-top {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.avatar {
+    width: 42px;
+    height: 42px;
+    background: #eee9ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.member-card h3 {
+    margin: 0;
+}
+
+.member-card p {
+    margin: 4px 0;
+    color: #666;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.enligne {
+    background: #d6f5d6;
+    color: green;
+}
+
+.absent {
+    background: #fff0c2;
+    color: #9a6a00;
+}
+
+.occupe {
+    background: #ffd6d6;
+    color: darkred;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: #9a6a00;
+}
+
+.red {
+    color: darkred;
+}
+
+.status-buttons button {
+    margin-right: 5px;
+}
+
+.message-form {
+    display: flex;
+    gap: 10px;
+}
+
+.message-form input {
+    flex: 1;
+}
+
+.messages {
+    background: #f7f7fb;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.history {
+    background: #f7f7fb;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
