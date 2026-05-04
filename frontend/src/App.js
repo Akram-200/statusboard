@@ -4,7 +4,7 @@ import LoginForm from "./components/LoginForm";
 import StatusBoard from "./components/StatusBoard";
 import "./App.css";
 
-const socket = io("http://localhost:3001");
+const socket = io(process.env.REACT_APP_API_URL || "http://localhost:3001");
 
 function App() {
     const [name, setName] = useState("");
